@@ -13,6 +13,11 @@
 		8348E866241120AC00C30A17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8348E865241120AC00C30A17 /* Assets.xcassets */; };
 		8348E869241120AC00C30A17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8348E867241120AC00C30A17 /* LaunchScreen.storyboard */; };
 		8348E877241121B600C30A17 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8348E876241121B600C30A17 /* MainTabController.swift */; };
+		8348E879241122BD00C30A17 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8348E878241122BD00C30A17 /* FeedController.swift */; };
+		8348E87B241122F700C30A17 /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8348E87A241122F700C30A17 /* ExploreController.swift */; };
+		8348E87D2411230100C30A17 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8348E87C2411230100C30A17 /* NotificationController.swift */; };
+		8348E87F2411231000C30A17 /* ConversationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8348E87E2411231000C30A17 /* ConversationController.swift */; };
+		8348E881241128BF00C30A17 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8348E880241128BF00C30A17 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		8348E868241120AC00C30A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8348E86A241120AC00C30A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8348E876241121B600C30A17 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		8348E878241122BD00C30A17 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		8348E87A241122F700C30A17 /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
+		8348E87C2411230100C30A17 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		8348E87E2411231000C30A17 /* ConversationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationController.swift; sourceTree = "<group>"; };
+		8348E880241128BF00C30A17 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +85,7 @@
 		8348E870241120D100C30A17 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				8348E880241128BF00C30A17 /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -90,6 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				8348E876241121B600C30A17 /* MainTabController.swift */,
+				8348E878241122BD00C30A17 /* FeedController.swift */,
+				8348E87A241122F700C30A17 /* ExploreController.swift */,
+				8348E87C2411230100C30A17 /* NotificationController.swift */,
+				8348E87E2411231000C30A17 /* ConversationController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -186,9 +201,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8348E87D2411230100C30A17 /* NotificationController.swift in Sources */,
 				8348E85D241120A900C30A17 /* AppDelegate.swift in Sources */,
+				8348E87B241122F700C30A17 /* ExploreController.swift in Sources */,
+				8348E881241128BF00C30A17 /* Extensions.swift in Sources */,
 				8348E85F241120A900C30A17 /* SceneDelegate.swift in Sources */,
 				8348E877241121B600C30A17 /* MainTabController.swift in Sources */,
+				8348E87F2411231000C30A17 /* ConversationController.swift in Sources */,
+				8348E879241122BD00C30A17 /* FeedController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
