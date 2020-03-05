@@ -18,6 +18,9 @@
 		8348E87D2411230100C30A17 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8348E87C2411230100C30A17 /* NotificationController.swift */; };
 		8348E87F2411231000C30A17 /* ConversationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8348E87E2411231000C30A17 /* ConversationController.swift */; };
 		8348E881241128BF00C30A17 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8348E880241128BF00C30A17 /* Extensions.swift */; };
+		8348E88424112B5500C30A17 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8348E88324112B5500C30A17 /* LoginController.swift */; };
+		8348E88624112BB600C30A17 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8348E88524112BB600C30A17 /* RegisterController.swift */; };
+		8348E888241131EC00C30A17 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8348E887241131EC00C30A17 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		8348E87C2411230100C30A17 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		8348E87E2411231000C30A17 /* ConversationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationController.swift; sourceTree = "<group>"; };
 		8348E880241128BF00C30A17 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8348E88324112B5500C30A17 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		8348E88524112BB600C30A17 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		8348E887241131EC00C30A17 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				8348E880241128BF00C30A17 /* Extensions.swift */,
+				8348E887241131EC00C30A17 /* Utilities.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -100,6 +107,7 @@
 		8348E872241120FE00C30A17 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8348E88224112B4500C30A17 /* Authentication */,
 				8348E876241121B600C30A17 /* MainTabController.swift */,
 				8348E878241122BD00C30A17 /* FeedController.swift */,
 				8348E87A241122F700C30A17 /* ExploreController.swift */,
@@ -128,6 +136,15 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8348E88224112B4500C30A17 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				8348E88324112B5500C30A17 /* LoginController.swift */,
+				8348E88524112BB600C30A17 /* RegisterController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,13 +218,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8348E88624112BB600C30A17 /* RegisterController.swift in Sources */,
 				8348E87D2411230100C30A17 /* NotificationController.swift in Sources */,
+				8348E888241131EC00C30A17 /* Utilities.swift in Sources */,
 				8348E85D241120A900C30A17 /* AppDelegate.swift in Sources */,
 				8348E87B241122F700C30A17 /* ExploreController.swift in Sources */,
 				8348E881241128BF00C30A17 /* Extensions.swift in Sources */,
 				8348E85F241120A900C30A17 /* SceneDelegate.swift in Sources */,
 				8348E877241121B600C30A17 /* MainTabController.swift in Sources */,
 				8348E87F2411231000C30A17 /* ConversationController.swift in Sources */,
+				8348E88424112B5500C30A17 /* LoginController.swift in Sources */,
 				8348E879241122BD00C30A17 /* FeedController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
